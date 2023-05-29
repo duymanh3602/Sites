@@ -236,3 +236,47 @@ footer {
     position: absolute;
     right: 80px;
 }
+
+.get-cv {
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: white;
+    color: #14293d;
+    border: 2px solid #14293d;
+    transition-duration: 0.4s;
+    text-align: center;
+    font-size: 18px;
+    padding: 16px;
+    width: 160px;
+    transition: all 0.5s;
+    margin: 5px;
+}
+
+.get-cv:hover {
+    background-color: #14293d; /* Green */
+    color: white;
+}
+
+.get-cv span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.get-cv span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+}
+
+.get-cv:hover span {
+    padding-right: 25px;
+}
+
+.get-cv:hover span:after {
+    opacity: 1;
+    right: 0;
+}

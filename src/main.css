@@ -237,6 +237,10 @@ footer {
     right: 80px;
 }
 
+.cv {
+    margin-top: 25px;
+}
+
 .get-cv {
     border-radius: 8px;
     cursor: pointer;

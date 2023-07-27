@@ -5,18 +5,22 @@
     <title>Bảng điểm</title>
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat" ;></link>
-    <link rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.min.css"></link>
     <link rel="stylesheet" href="../src/bang_diem.css"></link>
 </head>
 <body>
-<div style="width: 98%; margin-top: 5px; margin-left: 1vw; margin-bottom: 2vh;" >
-    <div align="right" style="cursor: pointer; margin-right: 2vw" class="print-button">
-        <a class="btn-new" href="#" onClick="window.print();">
-            <img src="../assets/print_icon.png" align="absmiddle" width="32px" height="32px" style="margin-right: 1vw;">Print
-        </a>
+<div style="width: 98%; margin-top: 5px; margin-left: 1vw; margin-bottom: 2vh;">
+    <div style="position: relative; display: block">
+            <div style="display: flex; justify-content: space-between;">
+            <a href="http://manhdinh.dev/" align="left"  style="cursor: pointer;" class="print-button">
+                <img src="../assets/back_icon.png" align="absmiddle" width="32px" height="32px"
+                     style="margin-left: 1vw;">
+            </a>
+            <a onClick="window.print();" align="right" style="cursor: pointer;" class="print-button">
+                <img src="../assets/print_icon.png" align="absmiddle" width="32px" height="32px"
+                     style="margin-right: 1vw;">
+            </a>
+        </div>
     </div>
-
     <div class="main-content">
         <div id="divList1" style="overflow: auto; width: 100%;">
             <table width="100%" cellpadding="0" cellspacing="0" border="0">
@@ -48,7 +52,7 @@
         <div id="divList2" style="overflow: hidden; width: 100%; height: 22px;">
             <table width="100%" border="0" cellpadding="0" cellspacing="0" class="clsListHeader" id="ListHeader"
                    style="padding: 0; margin: 0;">
-                <tr height="22">
+                <tr>
                     <td align="center" width="5%" title="Số thứ tự" nowrap
                         style="border-top: 1px solid #ccc; border-bottom: 1px solid #ccc; border-left: 1px solid #ccc; border-right: 1px solid #ccc;">
                         <b>STT</b>

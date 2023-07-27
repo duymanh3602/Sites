@@ -1,0 +1,1217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat" ;></link>
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.min.css"></link>
+    <link rel="stylesheet" href="../src/bang_diem.css"></link>
+</head>
+<body>
+<div style="width: 98%; margin-top: 5px; margin-left: 1vw; margin-bottom: 2vh;" >
+    <div align="right" style="cursor: pointer; margin-right: 2vw" class="print-button">
+        <a class="btn-new" href="#" onClick="window.print();">
+            <img src="../assets/print_icon.png" align="absmiddle" width="32px" height="32px" style="margin-right: 1vw;">Print
+        </a>
+    </div>
+
+    <div class="main-content">
+        <div id="divList1" style="overflow: auto; width: 100%;">
+            <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                <tr>
+                    <td align="CENTER" colspan="4" style="font-size: 18px;">
+                        <b>KẾT QUẢ HỌC TẬP &nbsp;&nbsp;</b>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div style="position: relative; left: 1vw;">
+            <table>
+                <tr>
+                    <td>
+                        <b>Sinh viên: Đinh Duy Mạnh &nbsp;&nbsp;</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <b>Mã số: 20020438 &nbsp;&nbsp;</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td width="30%">
+                        <b>Lớp quản lý: QH-2020-I/CQ-C-B &nbsp;&nbsp;&nbsp;&nbsp;</b>
+                    </td>
+            </table>
+        </div>
+        <div id="divList2" style="overflow: hidden; width: 100%; height: 22px;">
+            <table width="100%" border="0" cellpadding="0" cellspacing="0" class="clsListHeader" id="ListHeader"
+                   style="padding: 0; margin: 0;">
+                <tr height="22">
+                    <td align="center" width="5%" title="Số thứ tự" nowrap
+                        style="border-top: 1px solid #ccc; border-bottom: 1px solid #ccc; border-left: 1px solid #ccc; border-right: 1px solid #ccc;">
+                        <b>STT</b>
+                    </td>
+                    <td align="center" width="10%" title="Mã môn học" nowrap
+                        style="border-top: 1px solid #ccc; border-bottom: 1px solid #ccc; border-right: 1px solid #ccc;">
+                        <b>Mã MH</b>
+                    </td>
+                    <td align="center" width="40%" title="Tên môn học" nowrap
+                        style="border-top: 1px solid #ccc; border-bottom: 1px solid #ccc; border-right: 1px solid #ccc;">
+                        <b>Môn Học</b>
+                    </td>
+                    <td align="center" width="5%" title="Số TC" nowrap
+                        style="border-top: 1px solid #ccc; border-bottom: 1px solid #ccc; border-right: 1px solid #ccc;">
+                        <b>Số TC</b>
+                    </td>
+                    <td align="center" width="10%" title="Điểm hệ 10" nowrap
+                        style="border-top: 1px solid #ccc; border-bottom: 1px solid #ccc; border-right: 1px solid #ccc;">
+                        <b>Điểm hệ 10</b>
+                    </td>
+                    <td align="center" width="10%" title="Điểm hệ 4" nowrap
+                        style="border-top: 1px solid #ccc; border-bottom: 1px solid #ccc; border-right: 1px solid #ccc;">
+                        <b>Điểm chữ</b>
+                    </td>
+                    <td align="center" width="10%" title="Điểm chữ" nowrap
+                        style="border-top: 1px solid #ccc; border-bottom: 1px solid #ccc; border-right: 1px solid #ccc;">
+                        <b>Điểm hệ 4</b>
+                    </td>
+                </tr>
+                <tr height="22">
+                    <td width="10%" title="Điểm kết luận" align="center" nowrap
+                        style="border-bottom: 1px solid #ccc; border-right: 1px solid #ccc;"></td>
+                    <td width="10%" align="center" title="Điểm hệ 4" nowrap
+                        style="border-bottom: 1px solid #ccc; border-right: 1px solid #ccc;"></td>
+                    <td width="10%" align="center" title="Điểm chữ " nowrap
+                        style="border-bottom: 1px solid #ccc; border-right: 1px solid #ccc;"></td>
+                </tr>
+            </table>
+        </div>
+        <div id="divList3" style="overflow: auto; width: 100%;">
+            <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                <tr height="25" bgcolor="#FFFFFF">
+                    <td colspan="4" align="left" nowrap
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc; border-left:1px solid #ccc;">
+                        <b>&nbsp;&nbsp;&nbsp;&nbsp;HỌC KỲ 2 - 2022-2023. MÃ HỌC KỲ 222</b>
+                    </td>
+                    <td colspan="14" align="right" nowrap
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;">
+                        <b>&nbsp;&nbsp;&nbsp;&nbsp;
+                    </td>
+                </tr>
+                <tr height="20">
+                    <td width="10%" align="center" nowrap
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;border-left:1px solid #ccc;">
+                        &nbsp;&nbsp;1
+                    </td>
+                    <td width="10%" style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Mã môn học">
+                        &nbsp;&nbsp;INT3115
+                    </td>
+                    <td width="40%" style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;" title="Môn học">
+                        &nbsp;&nbsp;Thiết kế giao diện người dùng
+                    </td>
+                    <td width="5%" align="center" nowrap
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Số tín chỉ">&nbsp;&nbsp;3
+                    </td>
+                    <td width="10%" nowrap align="center"
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Điểm hệ 10 cuối cùng">&nbsp;&nbsp;8.7
+                    </td>
+                    <td width="10%" nowrap align="center"
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Điểm hệ 10 cuối cùng">&nbsp;&nbsp;A
+                    </td>
+                    <td width="10%" nowrap align="center"
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Điểm hệ 10 cuối cùng">&nbsp;&nbsp;3.7
+                    </td>
+                </tr>
+                <tr height="20">
+                    <td width="10%" align="center" nowrap
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;border-left:1px solid #ccc;">
+                        &nbsp;&nbsp;2
+                    </td>
+                    <td width="10%" style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Mã môn học">
+                        &nbsp;&nbsp;INT3110
+                    </td>
+                    <td width="40%" style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;" title="Môn học">
+                        &nbsp;&nbsp;Phân tích và thiết kế hướng đối tượng
+                    </td>
+                    <td width="5%" align="center" nowrap
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Số tín chỉ">&nbsp;&nbsp;3
+                    </td>
+                    <td width="10%" nowrap align="center"
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Điểm hệ 10 cuối cùng">&nbsp;&nbsp;7.1
+                    </td>
+                    <td width="10%" nowrap align="center"
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Điểm hệ 10 cuối cùng">&nbsp;&nbsp;B
+                    </td>
+                    <td width="10%" nowrap align="center"
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Điểm hệ 10 cuối cùng">&nbsp;&nbsp;3
+                    </td>
+                </tr>
+                <tr height="20">
+                    <td width="10%" align="center" nowrap
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;border-left:1px solid #ccc;">
+                        &nbsp;&nbsp;3
+                    </td>
+                    <td width="10%" style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Mã môn học">
+                        &nbsp;&nbsp;INT3207
+                    </td>
+                    <td width="40%" style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;" title="Môn học">
+                        &nbsp;&nbsp;Kho dữ liệu
+                    </td>
+                    <td width="5%" align="center" nowrap
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Số tín chỉ">&nbsp;&nbsp;3
+                    </td>
+                    <td width="10%" nowrap align="center"
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Điểm hệ 10 cuối cùng">&nbsp;&nbsp;7.6
+                    </td>
+                    <td width="10%" nowrap align="center"
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Điểm hệ 10 cuối cùng">&nbsp;&nbsp;B
+                    </td>
+                    <td width="10%" nowrap align="center"
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Điểm hệ 10 cuối cùng">&nbsp;&nbsp;3
+                    </td>
+                </tr>
+                <tr height="20">
+                    <td width="10%" align="center" nowrap
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;border-left:1px solid #ccc;">
+                        &nbsp;&nbsp;4
+                    </td>
+                    <td width="10%" style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Mã môn học">
+                        &nbsp;&nbsp;INT3216
+                    </td>
+                    <td width="40%" style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;" title="Môn học">
+                        &nbsp;&nbsp;Phân tích, đánh giá hiệu năng hệ thống máy tính
+                    </td>
+                    <td width="5%" align="center" nowrap
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Số tín chỉ">&nbsp;&nbsp;3
+                    </td>
+                    <td width="10%" nowrap align="center"
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Điểm hệ 10 cuối cùng">&nbsp;&nbsp;8.1
+                    </td>
+                    <td width="10%" nowrap align="center"
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Điểm hệ 10 cuối cùng">&nbsp;&nbsp;B+
+                    </td>
+                    <td width="10%" nowrap align="center"
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Điểm hệ 10 cuối cùng">&nbsp;&nbsp;3.5
+                    </td>
+                </tr>
+                <tr height="20">
+                    <td width="10%" align="center" nowrap
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;border-left:1px solid #ccc;">
+                        &nbsp;&nbsp;5
+                    </td>
+                    <td width="10%" style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Mã môn học">
+                        &nbsp;&nbsp;INT3506
+                    </td>
+                    <td width="40%" style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;" title="Môn học">
+                        &nbsp;&nbsp;Các hệ thống thương mại điện tử
+                    </td>
+                    <td width="5%" align="center" nowrap
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Số tín chỉ">&nbsp;&nbsp;3
+                    </td>
+                    <td width="10%" nowrap align="center"
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Điểm hệ 10 cuối cùng">&nbsp;&nbsp;9.8
+                    </td>
+                    <td width="10%" nowrap align="center"
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Điểm hệ 10 cuối cùng">&nbsp;&nbsp;A+
+                    </td>
+                    <td width="10%" nowrap align="center"
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Điểm hệ 10 cuối cùng">&nbsp;&nbsp;4
+                    </td>
+                </tr>
+                <tr height="20">
+                    <td width="10%" align="center" nowrap
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;border-left:1px solid #ccc;">
+                        &nbsp;&nbsp;6
+                    </td>
+                    <td width="10%" style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Mã môn học">
+                        &nbsp;&nbsp;INT2214
+                    </td>
+                    <td width="40%" style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;" title="Môn học">
+                        &nbsp;&nbsp;Nguyên lý hệ điều hành
+                    </td>
+                    <td width="5%" align="center" nowrap
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Số tín chỉ">&nbsp;&nbsp;4
+                    </td>
+                    <td width="10%" nowrap align="center"
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Điểm hệ 10 cuối cùng">&nbsp;&nbsp;8.9
+                    </td>
+                    <td width="10%" nowrap align="center"
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Điểm hệ 10 cuối cùng">&nbsp;&nbsp;A
+                    </td>
+                    <td width="10%" nowrap align="center"
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Điểm hệ 10 cuối cùng">&nbsp;&nbsp;3.7
+                    </td>
+                </tr>
+                <tr height="25" bgcolor="#FFFFFF">
+                    <td colspan="4" align="left" nowrap
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc; border-left:1px solid #ccc;">
+                        <b>&nbsp;&nbsp;&nbsp;&nbsp;HỌC KỲ 1 - 2022-2023. MÃ HỌC KỲ 221</b>
+                    </td>
+                    <td colspan="14" align="right" nowrap
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;">
+                        <b>&nbsp;&nbsp;&nbsp;&nbsp;
+                    </td>
+                </tr>
+                <tr height="20">
+                    <td width="10%" align="center" nowrap
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;border-left:1px solid #ccc;">
+                        &nbsp;&nbsp;1
+                    </td>
+                    <td width="10%" style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Mã môn học">
+                        &nbsp;&nbsp;INT3306
+                    </td>
+                    <td width="40%" style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;" title="Môn học">
+                        &nbsp;&nbsp;Phát triển ứng dụng Web
+                    </td>
+                    <td width="5%" align="center" nowrap
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Số tín chỉ">&nbsp;&nbsp;3
+                    </td>
+                    <td width="10%" nowrap align="center"
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Điểm hệ 10 cuối cùng">&nbsp;&nbsp;9.1
+                    </td>
+                    <td width="10%" nowrap align="center"
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Điểm hệ 10 cuối cùng">&nbsp;&nbsp;A+
+                    </td>
+                    <td width="10%" nowrap align="center"
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Điểm hệ 10 cuối cùng">&nbsp;&nbsp;4
+                    </td>
+                </tr>
+                <tr height="20">
+                    <td width="10%" align="center" nowrap
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;border-left:1px solid #ccc;">
+                        &nbsp;&nbsp;2
+                    </td>
+                    <td width="10%" style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Mã môn học">
+                        &nbsp;&nbsp;INT3108
+                    </td>
+                    <td width="40%" style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;" title="Môn học">
+                        &nbsp;&nbsp;Lập trình nhúng và thời gian thực
+                    </td>
+                    <td width="5%" align="center" nowrap
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Số tín chỉ">&nbsp;&nbsp;3
+                    </td>
+                    <td width="10%" nowrap align="center"
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Điểm hệ 10 cuối cùng">&nbsp;&nbsp;10
+                    </td>
+                    <td width="10%" nowrap align="center"
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Điểm hệ 10 cuối cùng">&nbsp;&nbsp;A+
+                    </td>
+                    <td width="10%" nowrap align="center"
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Điểm hệ 10 cuối cùng">&nbsp;&nbsp;4
+                    </td>
+                </tr>
+                <tr height="20">
+                    <td width="10%" align="center" nowrap
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;border-left:1px solid #ccc;">
+                        &nbsp;&nbsp;3
+                    </td>
+                    <td width="10%" style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Mã môn học">
+                        &nbsp;&nbsp;INT3209
+                    </td>
+                    <td width="40%" style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;" title="Môn học">
+                        &nbsp;&nbsp;Khai phá dữ liệu
+                    </td>
+                    <td width="5%" align="center" nowrap
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Số tín chỉ">&nbsp;&nbsp;3
+                    </td>
+                    <td width="10%" nowrap align="center"
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Điểm hệ 10 cuối cùng">&nbsp;&nbsp;9
+                    </td>
+                    <td width="10%" nowrap align="center"
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Điểm hệ 10 cuối cùng">&nbsp;&nbsp;A+
+                    </td>
+                    <td width="10%" nowrap align="center"
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Điểm hệ 10 cuối cùng">&nbsp;&nbsp;4
+                    </td>
+                </tr>
+                <tr height="20">
+                    <td width="10%" align="center" nowrap
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;border-left:1px solid #ccc;">
+                        &nbsp;&nbsp;4
+                    </td>
+                    <td width="10%" style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Mã môn học">
+                        &nbsp;&nbsp;INT3401
+                    </td>
+                    <td width="40%" style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;" title="Môn học">
+                        &nbsp;&nbsp;Trí tuệ nhân tạo
+                    </td>
+                    <td width="5%" align="center" nowrap
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Số tín chỉ">&nbsp;&nbsp;3
+                    </td>
+                    <td width="10%" nowrap align="center"
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Điểm hệ 10 cuối cùng">&nbsp;&nbsp;8.1
+                    </td>
+                    <td width="10%" nowrap align="center"
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Điểm hệ 10 cuối cùng">&nbsp;&nbsp;B+
+                    </td>
+                    <td width="10%" nowrap align="center"
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Điểm hệ 10 cuối cùng">&nbsp;&nbsp;3.5
+                    </td>
+                </tr>
+                <tr height="20">
+                    <td width="10%" align="center" nowrap
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;border-left:1px solid #ccc;">
+                        &nbsp;&nbsp;5
+                    </td>
+                    <td width="10%" style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Mã môn học">
+                        &nbsp;&nbsp;INT3507
+                    </td>
+                    <td width="40%" style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;" title="Môn học">
+                        &nbsp;&nbsp;Các vấn đề hiện đại của Công nghệ thông tin
+                    </td>
+                    <td width="5%" align="center" nowrap
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Số tín chỉ">&nbsp;&nbsp;3
+                    </td>
+                    <td width="10%" nowrap align="center"
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Điểm hệ 10 cuối cùng">&nbsp;&nbsp;9.3
+                    </td>
+                    <td width="10%" nowrap align="center"
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Điểm hệ 10 cuối cùng">&nbsp;&nbsp;A+
+                    </td>
+                    <td width="10%" nowrap align="center"
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Điểm hệ 10 cuối cùng">&nbsp;&nbsp;4
+                    </td>
+                </tr>
+                <tr height="25" bgcolor="#FFFFFF">
+                    <td colspan="4" align="left" nowrap
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc; border-left:1px solid #ccc;">
+                        <b>&nbsp;&nbsp;&nbsp;&nbsp;HỌC KỲ 2 - 2021-2022. MÃ HỌC KỲ 212</b>
+                    </td>
+                    <td colspan="14" align="right" nowrap
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;">
+                        <b>&nbsp;&nbsp;&nbsp;&nbsp;
+                    </td>
+                </tr>
+                <tr height="20">
+                    <td width="10%" align="center" nowrap
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;border-left:1px solid #ccc;">
+                        &nbsp;&nbsp;1
+                    </td>
+                    <td width="10%" style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Mã môn học">
+                        &nbsp;&nbsp;INT2208
+                    </td>
+                    <td width="40%" style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;" title="Môn học">
+                        &nbsp;&nbsp;Công nghệ phần mềm
+                    </td>
+                    <td width="5%" align="center" nowrap
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Số tín chỉ">&nbsp;&nbsp;3
+                    </td>
+                    <td width="10%" nowrap align="center"
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Điểm hệ 10 cuối cùng">&nbsp;&nbsp;8.8
+                    </td>
+                    <td width="10%" nowrap align="center"
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Điểm hệ 10 cuối cùng">&nbsp;&nbsp;A
+                    </td>
+                    <td width="10%" nowrap align="center"
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Điểm hệ 10 cuối cùng">&nbsp;&nbsp;3.7
+                    </td>
+                </tr>
+                <tr height="20">
+                    <td width="10%" align="center" nowrap
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;border-left:1px solid #ccc;">
+                        &nbsp;&nbsp;2
+                    </td>
+                    <td width="10%" style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Mã môn học">
+                        &nbsp;&nbsp;INT3202
+                    </td>
+                    <td width="40%" style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;" title="Môn học">
+                        &nbsp;&nbsp;Hệ quản trị cơ sở dữ liệu
+                    </td>
+                    <td width="5%" align="center" nowrap
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Số tín chỉ">&nbsp;&nbsp;3
+                    </td>
+                    <td width="10%" nowrap align="center"
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Điểm hệ 10 cuối cùng">&nbsp;&nbsp;8.2
+                    </td>
+                    <td width="10%" nowrap align="center"
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Điểm hệ 10 cuối cùng">&nbsp;&nbsp;B+
+                    </td>
+                    <td width="10%" nowrap align="center"
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Điểm hệ 10 cuối cùng">&nbsp;&nbsp;3.5
+                    </td>
+                </tr>
+                <tr height="20">
+                    <td width="10%" align="center" nowrap
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;border-left:1px solid #ccc;">
+                        &nbsp;&nbsp;3
+                    </td>
+                    <td width="10%" style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Mã môn học">
+                        &nbsp;&nbsp;BSA2002
+                    </td>
+                    <td width="40%" style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;" title="Môn học">
+                        &nbsp;&nbsp;Nguyên lý marketing
+                    </td>
+                    <td width="5%" align="center" nowrap
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Số tín chỉ">&nbsp;&nbsp;3
+                    </td>
+                    <td width="10%" nowrap align="center"
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Điểm hệ 10 cuối cùng">&nbsp;&nbsp;8.7
+                    </td>
+                    <td width="10%" nowrap align="center"
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Điểm hệ 10 cuối cùng">&nbsp;&nbsp;A
+                    </td>
+                    <td width="10%" nowrap align="center"
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Điểm hệ 10 cuối cùng">&nbsp;&nbsp;3.7
+                    </td>
+                </tr>
+                <tr height="20">
+                    <td width="10%" align="center" nowrap
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;border-left:1px solid #ccc;">
+                        &nbsp;&nbsp;4
+                    </td>
+                    <td width="10%" style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Mã môn học">
+                        &nbsp;&nbsp;INT2211
+                    </td>
+                    <td width="40%" style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;" title="Môn học">
+                        &nbsp;&nbsp;Cơ sở dữ liệu
+                    </td>
+                    <td width="5%" align="center" nowrap
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Số tín chỉ">&nbsp;&nbsp;4
+                    </td>
+                    <td width="10%" nowrap align="center"
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Điểm hệ 10 cuối cùng">&nbsp;&nbsp;7.4
+                    </td>
+                    <td width="10%" nowrap align="center"
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Điểm hệ 10 cuối cùng">&nbsp;&nbsp;B
+                    </td>
+                    <td width="10%" nowrap align="center"
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Điểm hệ 10 cuối cùng">&nbsp;&nbsp;3
+                    </td>
+                </tr>
+                <tr height="20">
+                    <td width="10%" align="center" nowrap
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;border-left:1px solid #ccc;">
+                        &nbsp;&nbsp;5
+                    </td>
+                    <td width="10%" style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Mã môn học">
+                        &nbsp;&nbsp;INT2213
+                    </td>
+                    <td width="40%" style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;" title="Môn học">
+                        &nbsp;&nbsp;Mạng máy tính
+                    </td>
+                    <td width="5%" align="center" nowrap
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Số tín chỉ">&nbsp;&nbsp;4
+                    </td>
+                    <td width="10%" nowrap align="center"
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Điểm hệ 10 cuối cùng">&nbsp;&nbsp;6.9
+                    </td>
+                    <td width="10%" nowrap align="center"
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Điểm hệ 10 cuối cùng">&nbsp;&nbsp;C+
+                    </td>
+                    <td width="10%" nowrap align="center"
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Điểm hệ 10 cuối cùng">&nbsp;&nbsp;2.5
+                    </td>
+                </tr>
+                <tr height="20">
+                    <td width="10%" align="center" nowrap
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;border-left:1px solid #ccc;">
+                        &nbsp;&nbsp;6
+                    </td>
+                    <td width="10%" style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Mã môn học">
+                        &nbsp;&nbsp;PEC1008
+                    </td>
+                    <td width="40%" style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;" title="Môn học">
+                        &nbsp;&nbsp;Kinh tế chính trị Mác - Lênin
+                    </td>
+                    <td width="5%" align="center" nowrap
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Số tín chỉ">&nbsp;&nbsp;2
+                    </td>
+                    <td width="10%" nowrap align="center"
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Điểm hệ 10 cuối cùng">&nbsp;&nbsp;7
+                    </td>
+                    <td width="10%" nowrap align="center"
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Điểm hệ 10 cuối cùng">&nbsp;&nbsp;B
+                    </td>
+                    <td width="10%" nowrap align="center"
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Điểm hệ 10 cuối cùng">&nbsp;&nbsp;3
+                    </td>
+                </tr>
+                <tr height="25" bgcolor="#FFFFFF">
+                    <td colspan="4" align="left" nowrap
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc; border-left:1px solid #ccc;">
+                        <b>&nbsp;&nbsp;&nbsp;&nbsp;HỌC KỲ 1 - 2021-2022. MÃ HỌC KỲ 211</b>
+                    </td>
+                    <td colspan="14" align="right" nowrap
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;">
+                        <b>&nbsp;&nbsp;&nbsp;&nbsp;
+                    </td>
+                </tr>
+                <tr height="20">
+                    <td width="10%" align="center" nowrap
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;border-left:1px solid #ccc;">
+                        &nbsp;&nbsp;1
+                    </td>
+                    <td width="10%" style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Mã môn học">
+                        &nbsp;&nbsp;PHI1002
+                    </td>
+                    <td width="40%" style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;" title="Môn học">
+                        &nbsp;&nbsp;Chủ nghĩa xã hội khoa học
+                    </td>
+                    <td width="5%" align="center" nowrap
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Số tín chỉ">&nbsp;&nbsp;2
+                    </td>
+                    <td width="10%" nowrap align="center"
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Điểm hệ 10 cuối cùng">&nbsp;&nbsp;8
+                    </td>
+                    <td width="10%" nowrap align="center"
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Điểm hệ 10 cuối cùng">&nbsp;&nbsp;B+
+                    </td>
+                    <td width="10%" nowrap align="center"
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Điểm hệ 10 cuối cùng">&nbsp;&nbsp;3.5
+                    </td>
+                </tr>
+                <tr height="20">
+                    <td width="10%" align="center" nowrap
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;border-left:1px solid #ccc;">
+                        &nbsp;&nbsp;2
+                    </td>
+                    <td width="10%" style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Mã môn học">
+                        &nbsp;&nbsp;HIS1001
+                    </td>
+                    <td width="40%" style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;" title="Môn học">
+                        &nbsp;&nbsp;Lịch sử Đảng Cộng sản Việt Nam
+                    </td>
+                    <td width="5%" align="center" nowrap
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Số tín chỉ">&nbsp;&nbsp;2
+                    </td>
+                    <td width="10%" nowrap align="center"
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Điểm hệ 10 cuối cùng">&nbsp;&nbsp;8.3
+                    </td>
+                    <td width="10%" nowrap align="center"
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Điểm hệ 10 cuối cùng">&nbsp;&nbsp;B+
+                    </td>
+                    <td width="10%" nowrap align="center"
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Điểm hệ 10 cuối cùng">&nbsp;&nbsp;3.5
+                    </td>
+                </tr>
+                <tr height="20">
+                    <td width="10%" align="center" nowrap
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;border-left:1px solid #ccc;">
+                        &nbsp;&nbsp;3
+                    </td>
+                    <td width="10%" style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Mã môn học">
+                        &nbsp;&nbsp;INT1050
+                    </td>
+                    <td width="40%" style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;" title="Môn học">
+                        &nbsp;&nbsp;Toán học rời rạc
+                    </td>
+                    <td width="5%" align="center" nowrap
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Số tín chỉ">&nbsp;&nbsp;4
+                    </td>
+                    <td width="10%" nowrap align="center"
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Điểm hệ 10 cuối cùng">&nbsp;&nbsp;9.4
+                    </td>
+                    <td width="10%" nowrap align="center"
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Điểm hệ 10 cuối cùng">&nbsp;&nbsp;A+
+                    </td>
+                    <td width="10%" nowrap align="center"
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Điểm hệ 10 cuối cùng">&nbsp;&nbsp;4
+                    </td>
+                </tr>
+                <tr height="20">
+                    <td width="10%" align="center" nowrap
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;border-left:1px solid #ccc;">
+                        &nbsp;&nbsp;4
+                    </td>
+                    <td width="10%" style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Mã môn học">
+                        &nbsp;&nbsp;ELT2035
+                    </td>
+                    <td width="40%" style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;" title="Môn học">
+                        &nbsp;&nbsp;Tín hiệu và hệ thống
+                    </td>
+                    <td width="5%" align="center" nowrap
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Số tín chỉ">&nbsp;&nbsp;3
+                    </td>
+                    <td width="10%" nowrap align="center"
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Điểm hệ 10 cuối cùng">&nbsp;&nbsp;8.5
+                    </td>
+                    <td width="10%" nowrap align="center"
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Điểm hệ 10 cuối cùng">&nbsp;&nbsp;A
+                    </td>
+                    <td width="10%" nowrap align="center"
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Điểm hệ 10 cuối cùng">&nbsp;&nbsp;3.7
+                    </td>
+                </tr>
+                <tr height="20">
+                    <td width="10%" align="center" nowrap
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;border-left:1px solid #ccc;">
+                        &nbsp;&nbsp;5
+                    </td>
+                    <td width="10%" style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Mã môn học">
+                        &nbsp;&nbsp;INT2204
+                    </td>
+                    <td width="40%" style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;" title="Môn học">
+                        &nbsp;&nbsp;Lập trình hướng đối tượng
+                    </td>
+                    <td width="5%" align="center" nowrap
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Số tín chỉ">&nbsp;&nbsp;3
+                    </td>
+                    <td width="10%" nowrap align="center"
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Điểm hệ 10 cuối cùng">&nbsp;&nbsp;8.1
+                    </td>
+                    <td width="10%" nowrap align="center"
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Điểm hệ 10 cuối cùng">&nbsp;&nbsp;B+
+                    </td>
+                    <td width="10%" nowrap align="center"
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Điểm hệ 10 cuối cùng">&nbsp;&nbsp;3.5
+                    </td>
+                </tr>
+                <tr height="20">
+                    <td width="10%" align="center" nowrap
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;border-left:1px solid #ccc;">
+                        &nbsp;&nbsp;6
+                    </td>
+                    <td width="10%" style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Mã môn học">
+                        &nbsp;&nbsp;INT3514
+                    </td>
+                    <td width="40%" style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;" title="Môn học">
+                        &nbsp;&nbsp;Pháp luật và đạo đức nghề nghiệp trong CNTT
+                    </td>
+                    <td width="5%" align="center" nowrap
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Số tín chỉ">&nbsp;&nbsp;2
+                    </td>
+                    <td width="10%" nowrap align="center"
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Điểm hệ 10 cuối cùng">&nbsp;&nbsp;5.7
+                    </td>
+                    <td width="10%" nowrap align="center"
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Điểm hệ 10 cuối cùng">&nbsp;&nbsp;C
+                    </td>
+                    <td width="10%" nowrap align="center"
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Điểm hệ 10 cuối cùng">&nbsp;&nbsp;2
+                    </td>
+                </tr>
+                <tr height="20">
+                    <td width="10%" align="center" nowrap
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;border-left:1px solid #ccc;">
+                        &nbsp;&nbsp;7
+                    </td>
+                    <td width="10%" style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Mã môn học">
+                        &nbsp;&nbsp;INT2212
+                    </td>
+                    <td width="40%" style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;" title="Môn học">
+                        &nbsp;&nbsp;Kiến trúc máy tính
+                    </td>
+                    <td width="5%" align="center" nowrap
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Số tín chỉ">&nbsp;&nbsp;4
+                    </td>
+                    <td width="10%" nowrap align="center"
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Điểm hệ 10 cuối cùng">&nbsp;&nbsp;7
+                    </td>
+                    <td width="10%" nowrap align="center"
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Điểm hệ 10 cuối cùng">&nbsp;&nbsp;B
+                    </td>
+                    <td width="10%" nowrap align="center"
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Điểm hệ 10 cuối cùng">&nbsp;&nbsp;3
+                    </td>
+                </tr>
+                <tr height="25" bgcolor="#FFFFFF">
+                    <td colspan="4" align="left" nowrap
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc; border-left:1px solid #ccc;">
+                        <b>&nbsp;&nbsp;&nbsp;&nbsp;HỌC KỲ 2 - 2020-2021. MÃ HỌC KỲ 202</b>
+                    </td>
+                    <td colspan="14" align="right" nowrap
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;">
+                        <b>&nbsp;&nbsp;&nbsp;&nbsp;
+                    </td>
+                </tr>
+                <tr height="20">
+                    <td width="10%" align="center" nowrap
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;border-left:1px solid #ccc;">
+                        &nbsp;&nbsp;1
+                    </td>
+                    <td width="10%" style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Mã môn học">
+                        &nbsp;&nbsp;POL1001
+                    </td>
+                    <td width="40%" style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;" title="Môn học">
+                        &nbsp;&nbsp;Tư tưởng Hồ Chí Minh
+                    </td>
+                    <td width="5%" align="center" nowrap
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Số tín chỉ">&nbsp;&nbsp;2
+                    </td>
+                    <td width="10%" nowrap align="center"
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Điểm hệ 10 cuối cùng">&nbsp;&nbsp;8.2
+                    </td>
+                    <td width="10%" nowrap align="center"
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Điểm hệ 10 cuối cùng">&nbsp;&nbsp;B+
+                    </td>
+                    <td width="10%" nowrap align="center"
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Điểm hệ 10 cuối cùng">&nbsp;&nbsp;3.5
+                    </td>
+                </tr>
+                <tr height="20">
+                    <td width="10%" align="center" nowrap
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;border-left:1px solid #ccc;">
+                        &nbsp;&nbsp;2
+                    </td>
+                    <td width="10%" style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Mã môn học">
+                        &nbsp;&nbsp;MAT1093
+                    </td>
+                    <td width="40%" style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;" title="Môn học">
+                        &nbsp;&nbsp;Đại số
+                    </td>
+                    <td width="5%" align="center" nowrap
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Số tín chỉ">&nbsp;&nbsp;4
+                    </td>
+                    <td width="10%" nowrap align="center"
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Điểm hệ 10 cuối cùng">&nbsp;&nbsp;8.8
+                    </td>
+                    <td width="10%" nowrap align="center"
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Điểm hệ 10 cuối cùng">&nbsp;&nbsp;A
+                    </td>
+                    <td width="10%" nowrap align="center"
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Điểm hệ 10 cuối cùng">&nbsp;&nbsp;3.7
+                    </td>
+                </tr>
+                <tr height="20">
+                    <td width="10%" align="center" nowrap
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;border-left:1px solid #ccc;">
+                        &nbsp;&nbsp;3
+                    </td>
+                    <td width="10%" style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Mã môn học">
+                        &nbsp;&nbsp;MAT1101
+                    </td>
+                    <td width="40%" style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;" title="Môn học">
+                        &nbsp;&nbsp;Xác suất thống kê
+                    </td>
+                    <td width="5%" align="center" nowrap
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Số tín chỉ">&nbsp;&nbsp;3
+                    </td>
+                    <td width="10%" nowrap align="center"
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Điểm hệ 10 cuối cùng">&nbsp;&nbsp;6.2
+                    </td>
+                    <td width="10%" nowrap align="center"
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Điểm hệ 10 cuối cùng">&nbsp;&nbsp;C
+                    </td>
+                    <td width="10%" nowrap align="center"
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Điểm hệ 10 cuối cùng">&nbsp;&nbsp;2
+                    </td>
+                </tr>
+                <tr height="20">
+                    <td width="10%" align="center" nowrap
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;border-left:1px solid #ccc;">
+                        &nbsp;&nbsp;4
+                    </td>
+                    <td width="10%" style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Mã môn học">
+                        &nbsp;&nbsp;MAT1042
+                    </td>
+                    <td width="40%" style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;" title="Môn học">
+                        &nbsp;&nbsp;Giải tích 2
+                    </td>
+                    <td width="5%" align="center" nowrap
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Số tín chỉ">&nbsp;&nbsp;4
+                    </td>
+                    <td width="10%" nowrap align="center"
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Điểm hệ 10 cuối cùng">&nbsp;&nbsp;7.7
+                    </td>
+                    <td width="10%" nowrap align="center"
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Điểm hệ 10 cuối cùng">&nbsp;&nbsp;B
+                    </td>
+                    <td width="10%" nowrap align="center"
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Điểm hệ 10 cuối cùng">&nbsp;&nbsp;3
+                    </td>
+                </tr>
+                <tr height="20">
+                    <td width="10%" align="center" nowrap
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;border-left:1px solid #ccc;">
+                        &nbsp;&nbsp;5
+                    </td>
+                    <td width="10%" style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Mã môn học">
+                        &nbsp;&nbsp;EPN1096
+                    </td>
+                    <td width="40%" style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;" title="Môn học">
+                        &nbsp;&nbsp;Vật lý đại cương 2
+                    </td>
+                    <td width="5%" align="center" nowrap
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Số tín chỉ">&nbsp;&nbsp;2
+                    </td>
+                    <td width="10%" nowrap align="center"
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Điểm hệ 10 cuối cùng">&nbsp;&nbsp;7.2
+                    </td>
+                    <td width="10%" nowrap align="center"
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Điểm hệ 10 cuối cùng">&nbsp;&nbsp;B
+                    </td>
+                    <td width="10%" nowrap align="center"
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Điểm hệ 10 cuối cùng">&nbsp;&nbsp;3
+                    </td>
+                </tr>
+                <tr height="20">
+                    <td width="10%" align="center" nowrap
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;border-left:1px solid #ccc;">
+                        &nbsp;&nbsp;6
+                    </td>
+                    <td width="10%" style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Mã môn học">
+                        &nbsp;&nbsp;INT2215
+                    </td>
+                    <td width="40%" style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;" title="Môn học">
+                        &nbsp;&nbsp;Lập trình nâng cao
+                    </td>
+                    <td width="5%" align="center" nowrap
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Số tín chỉ">&nbsp;&nbsp;4
+                    </td>
+                    <td width="10%" nowrap align="center"
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Điểm hệ 10 cuối cùng">&nbsp;&nbsp;8
+                    </td>
+                    <td width="10%" nowrap align="center"
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Điểm hệ 10 cuối cùng">&nbsp;&nbsp;B+
+                    </td>
+                    <td width="10%" nowrap align="center"
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Điểm hệ 10 cuối cùng">&nbsp;&nbsp;3.5
+                    </td>
+                </tr>
+                <tr height="20">
+                    <td width="10%" align="center" nowrap
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;border-left:1px solid #ccc;">
+                        &nbsp;&nbsp;7
+                    </td>
+                    <td width="10%" style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Mã môn học">
+                        &nbsp;&nbsp;PHI1006
+                    </td>
+                    <td width="40%" style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;" title="Môn học">
+                        &nbsp;&nbsp;Triết học Mác - Lênin
+                    </td>
+                    <td width="5%" align="center" nowrap
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Số tín chỉ">&nbsp;&nbsp;3
+                    </td>
+                    <td width="10%" nowrap align="center"
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Điểm hệ 10 cuối cùng">&nbsp;&nbsp;7.1
+                    </td>
+                    <td width="10%" nowrap align="center"
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Điểm hệ 10 cuối cùng">&nbsp;&nbsp;B
+                    </td>
+                    <td width="10%" nowrap align="center"
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Điểm hệ 10 cuối cùng">&nbsp;&nbsp;3
+                    </td>
+                </tr>
+                <tr height="20">
+                    <td width="10%" align="center" nowrap
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;border-left:1px solid #ccc;">
+                        &nbsp;&nbsp;8
+                    </td>
+                    <td width="10%" style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Mã môn học">
+                        &nbsp;&nbsp;INT2210
+                    </td>
+                    <td width="40%" style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;" title="Môn học">
+                        &nbsp;&nbsp;Cấu trúc dữ liệu và giải thuật
+                    </td>
+                    <td width="5%" align="center" nowrap
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Số tín chỉ">&nbsp;&nbsp;4
+                    </td>
+                    <td width="10%" nowrap align="center"
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Điểm hệ 10 cuối cùng">&nbsp;&nbsp;7.9
+                    </td>
+                    <td width="10%" nowrap align="center"
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Điểm hệ 10 cuối cùng">&nbsp;&nbsp;B
+                    </td>
+                    <td width="10%" nowrap align="center"
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Điểm hệ 10 cuối cùng">&nbsp;&nbsp;3
+                    </td>
+                </tr>
+                <tr height="25" bgcolor="#FFFFFF">
+                    <td colspan="4" align="left" nowrap
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc; border-left:1px solid #ccc;">
+                        <b>&nbsp;&nbsp;&nbsp;&nbsp;HỌC KỲ 1 - 2020-2021. MÃ HỌC KỲ 201</b>
+                    </td>
+                    <td colspan="14" align="right" nowrap
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;">
+                        <b>&nbsp;&nbsp;&nbsp;&nbsp;
+                    </td>
+                </tr>
+                <tr height="20">
+                    <td width="10%" align="center" nowrap
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;border-left:1px solid #ccc;">
+                        &nbsp;&nbsp;1
+                    </td>
+                    <td width="10%" style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Mã môn học">
+                        &nbsp;&nbsp;MAT1041
+                    </td>
+                    <td width="40%" style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;" title="Môn học">
+                        &nbsp;&nbsp;Giải tích 1
+                    </td>
+                    <td width="5%" align="center" nowrap
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Số tín chỉ">&nbsp;&nbsp;4
+                    </td>
+                    <td width="10%" nowrap align="center"
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Điểm hệ 10 cuối cùng">&nbsp;&nbsp;7.2
+                    </td>
+                    <td width="10%" nowrap align="center"
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Điểm hệ 10 cuối cùng">&nbsp;&nbsp;B
+                    </td>
+                    <td width="10%" nowrap align="center"
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Điểm hệ 10 cuối cùng">&nbsp;&nbsp;3
+                    </td>
+                </tr>
+                <tr height="20">
+                    <td width="10%" align="center" nowrap
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;border-left:1px solid #ccc;">
+                        &nbsp;&nbsp;2
+                    </td>
+                    <td width="10%" style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Mã môn học">
+                        &nbsp;&nbsp;EPN1095
+                    </td>
+                    <td width="40%" style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;" title="Môn học">
+                        &nbsp;&nbsp;Vật lý đại cương 1
+                    </td>
+                    <td width="5%" align="center" nowrap
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Số tín chỉ">&nbsp;&nbsp;2
+                    </td>
+                    <td width="10%" nowrap align="center"
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Điểm hệ 10 cuối cùng">&nbsp;&nbsp;8.2
+                    </td>
+                    <td width="10%" nowrap align="center"
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Điểm hệ 10 cuối cùng">&nbsp;&nbsp;B+
+                    </td>
+                    <td width="10%" nowrap align="center"
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Điểm hệ 10 cuối cùng">&nbsp;&nbsp;3.5
+                    </td>
+                </tr>
+                <tr height="20">
+                    <td width="10%" align="center" nowrap
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;border-left:1px solid #ccc;">
+                        &nbsp;&nbsp;3
+                    </td>
+                    <td width="10%" style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Mã môn học">
+                        &nbsp;&nbsp;INT1008
+                    </td>
+                    <td width="40%" style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;" title="Môn học">
+                        &nbsp;&nbsp;Nhập môn lập trình
+                    </td>
+                    <td width="5%" align="center" nowrap
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Số tín chỉ">&nbsp;&nbsp;3
+                    </td>
+                    <td width="10%" nowrap align="center"
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Điểm hệ 10 cuối cùng">&nbsp;&nbsp;8.2
+                    </td>
+                    <td width="10%" nowrap align="center"
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Điểm hệ 10 cuối cùng">&nbsp;&nbsp;B+
+                    </td>
+                    <td width="10%" nowrap align="center"
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Điểm hệ 10 cuối cùng">&nbsp;&nbsp;3.5
+                    </td>
+                </tr>
+                <tr height="20">
+                    <td width="10%" align="center" nowrap
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;border-left:1px solid #ccc;">
+                        &nbsp;&nbsp;4
+                    </td>
+                    <td width="10%" style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Mã môn học">
+                        &nbsp;&nbsp;INT1007
+                    </td>
+                    <td width="40%" style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;" title="Môn học">
+                        &nbsp;&nbsp;Giới thiệu về Công nghệ thông tin
+                    </td>
+                    <td width="5%" align="center" nowrap
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Số tín chỉ">&nbsp;&nbsp;3
+                    </td>
+                    <td width="10%" nowrap align="center"
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Điểm hệ 10 cuối cùng">&nbsp;&nbsp;8.4
+                    </td>
+                    <td width="10%" nowrap align="center"
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Điểm hệ 10 cuối cùng">&nbsp;&nbsp;B+
+                    </td>
+                    <td width="10%" nowrap align="center"
+                        style="border-bottom:1px solid #ccc; border-right:1px solid #ccc;"
+                        title="Điểm hệ 10 cuối cùng">&nbsp;&nbsp;3.5
+                    </td>
+                </tr>
+                <tr height="20">
+                    <td width="5%" nowrap align="left" colspan="12">
+                        &nbsp;<b>Tổng tín chỉ: &nbsp;&nbsp;111</b>
+                    </td>
+                </tr>
+                <tr height="20">
+                    <td width="5%" nowrap align="left" colspan="12">
+                        &nbsp;<b>Tổng tín chỉ tích lũy: &nbsp;&nbsp;111</b>
+                    </td>
+                </tr>
+                <tr height="20">
+                    <td width="5%" nowrap align="left" colspan="12">
+                        &nbsp;<b>Điểm trung bình tích lũy hệ 4: &nbsp;&nbsp;3.37</b>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,17 @@
+{
+  "name": "manhdinh.dev",
+  "short_name": "manhdinh",
+  "description": "My information page",
+  "icons": [
+    {
+      "src": "assets/64_64.png",
+      "sizes": "64x64",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/128_128.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    }
+  ]
+}

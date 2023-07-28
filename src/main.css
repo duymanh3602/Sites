@@ -27,8 +27,9 @@
 body {
     box-sizing: border-box;
     color: #13293D;
-    font-family: "Josefin Sans", cwtexyen, sans-serif; }
-
+    font-family: "Josefin Sans", cwtexyen, sans-serif;
+    /*font-family: "Montserrat", sans-serif;*/
+}
 /**/
 
 @keyframes cursor {

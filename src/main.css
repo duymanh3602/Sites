@@ -285,3 +285,7 @@ footer {
     opacity: 1;
     right: 0;
 }
+
+#myBtn {
+    cursor: pointer;
+}

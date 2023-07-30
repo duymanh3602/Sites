@@ -1,33 +1,21 @@
 @import url(https://fonts.googleapis.com/earlyaccess/cwtexyen.css);
 @import url(https://fonts.googleapis.com/css?family=Josefin+Sans);
 @import url(https://fonts.googleapis.com/css?family=Source+Code+Pro:400,500);
+@import url(https://fonts.googleapis.com/css?family=Be+Vietnam+Pro);
+@import url(https://fonts.googleapis.com/css?family=Quicksand);
 @keyframes change-text {
     0%, 55%, 100% {
         transform: translateY(-45%); }
     5%, 50% {
         transform: translateY(-95%); } }
-
-/*
-@keyframes typing {
-    0% {
-        width: 0; }
-}
-
-@keyframes clearing {
-    100%, 55%, 0% {
-        transform: translateY(45%);
-    }
-}
-
-@keyframes text-blink {
-    50% {
-        border-color: transparent; } }
-*/
-
 body {
     box-sizing: border-box;
     color: #13293D;
-    font-family: "Josefin Sans", cwtexyen, sans-serif;
+    /*font-family: "Be Vietnam Pro", serif;*/
+    font-family: "Quicksand", serif;
+    font-weight: bolder;
+    font-style: normal;
+    /*font-family: "Josefin Sans", cwtexyen, sans-serif;*/
     /*font-family: "Montserrat", sans-serif;*/
 }
 /**/

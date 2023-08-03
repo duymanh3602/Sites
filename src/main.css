@@ -186,6 +186,19 @@ a:hover {
     margin: 5px;
     border-radius: 5px; }
 
+.pri-tag-en {
+    display: inline-block;
+    padding: 8px;
+    background: #13293D;
+    color: #E8F1F2;
+    margin: 5px;
+    border-radius: 5px; 
+}
+
+.pri-tag-en { position:relative; }
+.pri-tag-en span { position:absolute; display:none; z-index:99; }
+.pri-tag-en:hover span { display:block; }
+
 .sec-tag {
     display: inline-block;
     padding: 8px;
@@ -281,3 +294,7 @@ footer {
 #x {
     margin: auto;
 }
+
+.hover_img a { position:relative; }
+.hover_img a span { position:absolute; display:none; z-index:99; }
+.hover_img a:hover span { display:block; }
